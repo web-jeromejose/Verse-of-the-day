@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useState } from "react";
-import { ArrowRight, BookOpen, Check, Church, Heart, Shuffle, Sparkles, Trophy } from "lucide-react";
+import { ArrowRight, BookOpen, Check, Church, Heart, Shuffle, Trophy } from "lucide-react";
 
 import hero from "@/assets/hero-sunrise.jpg";
 import { ThursdayReminder } from "@/components/ThursdayReminder";
