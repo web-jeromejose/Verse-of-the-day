@@ -56,10 +56,8 @@ function Index() {
         />
         <div className="absolute inset-0 -z-10 bg-hero-fade" />
         <div className="px-6 pb-10 pt-14">
-          <h1 className="animate-rise text-5xl font-semibold leading-[1.02] tracking-tight text-ink-foreground">
-            <em className="font-medium text-sun">Bible Verses</em>
-          </h1>
-          <p className="mt-4 max-w-xs animate-rise text-base leading-relaxed text-ink-foreground/90 [animation-delay:120ms]">
+          <h1 className="sr-only">Bible Verses</h1>
+          <p className="max-w-xs animate-rise text-base leading-relaxed text-ink-foreground/90 [animation-delay:120ms]">
             Explained in Taglish — may hugot sa buhay ngayon, fun facts, at konting laro.
           </p>
 
@@ -114,7 +112,7 @@ function Index() {
             <Church className="h-6 w-6" />
           </div>
           <div className="flex-1">
-            <p className="font-display text-lg font-semibold text-foreground">JCTGbTg Church</p>
+            <p className="font-display text-lg font-semibold text-foreground">JCTGBTG Church</p>
             <p className="text-sm text-muted-foreground">One God Creed, worship schedule at events</p>
           </div>
           <ArrowRight className="h-5 w-5 text-primary" />
@@ -174,7 +172,7 @@ function Index() {
 
       <footer className="px-6 pt-14 text-center">
         <Link to="/church" className="inline-block">
-          <p className="font-display text-2xl font-semibold text-foreground">JCTGbTg Church</p>
+          <p className="font-display text-2xl font-semibold text-foreground">JCTGBTG Church</p>
           <p className="mt-1 text-xs font-semibold uppercase tracking-[0.3em] text-primary">One God</p>
           <p className="mt-3 inline-flex items-center gap-1 text-sm font-semibold text-primary">
             Kilalanin ang simbahan <ArrowRight className="h-4 w-4" />

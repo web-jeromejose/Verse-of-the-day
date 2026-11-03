@@ -1,6 +1,6 @@
 // Church details taken from https://jctgbtg.com/
 export const church = {
-  name: "JCTGbTg Church",
+  name: "JCTGBTG Church",
   tagline: "One God",
   welcome: "This is a church for all. This is where you belong.",
   website: "https://jctgbtg.com/",
