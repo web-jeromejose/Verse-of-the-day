@@ -6,12 +6,12 @@ import { church } from "@/data/church";
 export const Route = createFileRoute("/church")({
   head: () => ({
     meta: [
-      { title: "JCTGbTg Church — One God" },
+      { title: "JCTGBTG Church — One God" },
       {
         name: "description",
-        content: "Kilalanin ang JCTGbTg Church: One God Creed, mission, vision, online worship schedule at mga paparating na events.",
+        content: "Kilalanin ang JCTGBTG Church: One God Creed, mission, vision, online worship schedule at mga paparating na events.",
       },
-      { property: "og:title", content: "JCTGbTg Church — One God" },
+      { property: "og:title", content: "JCTGBTG Church — One God" },
       { property: "og:description", content: "This is a church for all. This is where you belong." },
       { property: "og:image", content: church.bishop.photo },
       { name: "twitter:image", content: church.bishop.photo },
