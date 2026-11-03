@@ -8,3 +8,6 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+- Plan content (all 30 days) lives in `src/data/verses.ts`; pages read from it, never hardcode verse copy in routes. Why: one place to edit wording.
+- Reader progress, favorites and notes are stored on-device via `src/lib/progress.ts` (localStorage, read after hydration). Why: no accounts needed.
