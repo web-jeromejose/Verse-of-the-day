@@ -97,9 +97,10 @@ function DayPage() {
   };
 
   const onTouchEnd = (e: React.TouchEvent) => {
-    if (!touch.current) return;
-    const dx = e.changedTouches[0].clientX - touch.current.x;
-    const dy = e.changedTouches[0].clientY - touch.current.y;
+    const t = e.changedTouches[0];
+    if (!touch.current || !t) return;
+    const dx = t.clientX - touch.current.x;
+    const dy = t.clientY - touch.current.y;
     touch.current = null;
     if (Math.abs(dx) < 80 || Math.abs(dy) > 60) return;
     const target = dx < 0 ? v.day + 1 : v.day - 1;
@@ -136,7 +137,10 @@ function DayPage() {
 
       <div
         key={v.day}
-        onTouchStart={(e) => (touch.current = { x: e.touches[0].clientX, y: e.touches[0].clientY })}
+        onTouchStart={(e) => {
+          const t = e.touches[0];
+          if (t) touch.current = { x: t.clientX, y: t.clientY };
+        }}
         onTouchEnd={onTouchEnd}
         className="px-5"
       >

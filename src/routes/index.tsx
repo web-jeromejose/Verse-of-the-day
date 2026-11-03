@@ -235,7 +235,7 @@ function RandomVerse() {
   const draw = () => {
     let next: Verse;
     do {
-      next = verses[Math.floor(Math.random() * verses.length)];
+      next = verses[Math.floor(Math.random() * verses.length)]!;
     } while (v && next.day === v.day);
     setV(next);
     setSpin((s) => s + 1);

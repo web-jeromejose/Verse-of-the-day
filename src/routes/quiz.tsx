@@ -39,7 +39,7 @@ function QuizPage() {
   const q = qs[i];
 
   const pick = (opt: string) => {
-    if (picked) return;
+    if (picked || !q) return;
     setPicked(opt);
     if (opt === q.answer) setScore((s) => s + 1);
   };
