@@ -99,6 +99,34 @@ function ChurchPage() {
         <ExternalButton href={church.watchUrl} label="Watch Online" />
       </section>
 
+      {/* London satellite */}
+      <section className="mt-8 px-5">
+        <h2 className="text-2xl font-semibold text-foreground">JCTGbTg London, UK</h2>
+        <div className="mt-4 rounded-3xl border bg-card p-6">
+          <p className="text-xs font-semibold uppercase tracking-wider text-primary">{church.london.title}</p>
+          <p className="mt-2 font-display text-xl font-semibold text-foreground">{church.london.pastor}</p>
+          <p className="mt-3 flex items-start gap-1.5 text-sm text-foreground">
+            <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
+            <span>{church.london.venue}<br />{church.london.address}</span>
+          </p>
+          <p className="mt-2 flex items-center gap-1.5 text-sm text-foreground">
+            <CalendarDays className="h-4 w-4 shrink-0 text-primary" /> {church.london.service}
+          </p>
+          <p className="mt-4 rounded-2xl bg-accent p-4 text-sm leading-relaxed text-accent-foreground">
+            Kabayan sa UK? Welcome ka dito! Sama-sama tayong sumamba tuwing Linggo — ikaw ay belong dito.
+          </p>
+          <div className="mt-4 grid grid-cols-2 gap-3">
+            <a href={church.london.mapUrl} target="_blank" rel="noreferrer" className="flex items-center justify-center gap-1 rounded-full bg-secondary px-4 py-3 text-sm font-semibold text-secondary-foreground">
+              Directions <ArrowUpRight className="h-4 w-4" />
+            </a>
+            <a href={church.london.facebook} target="_blank" rel="noreferrer" className="flex items-center justify-center gap-1 rounded-full bg-sunrise px-4 py-3 text-sm font-semibold text-primary-foreground">
+              Facebook <ArrowUpRight className="h-4 w-4" />
+            </a>
+          </div>
+        </div>
+      </section>
+
+
       {/* Events */}
       {upcoming.length > 0 && (
         <section className="mt-8 px-5">
