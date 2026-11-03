@@ -56,7 +56,7 @@ function Index() {
         <div className="absolute inset-0 -z-10 bg-hero-fade" />
         <div className="px-6 pb-10 pt-14">
           <span className="inline-flex items-center gap-1.5 rounded-full bg-background/85 px-3 py-1 text-xs font-semibold text-primary backdrop-blur">
-            <Sparkles className="h-3.5 w-3.5" /> 30-Day Reading Plan
+            <Sparkles className="h-3.5 w-3.5" /> JCTGbTg Church · One God
           </span>
           <h1 className="mt-5 animate-rise text-5xl font-semibold leading-[1.02] tracking-tight text-ink-foreground">
             30 Sikat na
@@ -161,17 +161,10 @@ function Index() {
         </ul>
       </section>
 
-      <footer className="px-6 pt-14 text-center text-xs leading-relaxed text-muted-foreground">
-        Hango sa reading plan na <em>“30 Famous Bible Verses Explained”</em> ng Life.Church sa{" "}
-        <a
-          href="https://www.bible.com/reading-plans/60994-30-famous-bible-verses-explained"
-          target="_blank"
-          rel="noreferrer"
-          className="underline underline-offset-2"
-        >
-          Bible App
-        </a>
-        . Scripture: NIV & NKJV.
+      <footer className="px-6 pt-14 text-center">
+        <p className="font-display text-2xl font-semibold text-foreground">JCTGbTg Church</p>
+        <p className="mt-1 text-xs font-semibold uppercase tracking-[0.3em] text-primary">One God</p>
+        <p className="mt-4 text-xs text-muted-foreground">Scripture: NIV & NKJV.</p>
       </footer>
     </main>
   );
