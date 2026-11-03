@@ -68,7 +68,7 @@ export const verses: Verse[] = [
     theme: "Safe Place",
     why: "Napakaraming tao na ang na-comfort nito sa panahon ng sakit at takot. Short pero powerful: si God ay protector at source of strength natin.",
     explain:
-      "Sa Psalm 46, after ng line na ito, dine-describe ang mga lindol, bagyo at gulo ng mga bansa. Sa ancient world, ang 'refuge' ay parang walled city o kuta — safe place tuwing may giyera. Kaya sabihing si God ang refuge mo ay sabihing Siya ang matatakbuhan mo kapag magulo ang lahat. At 'strength' — hindi lang Ka Niya itatago, bibigyan ka pa Niya ng lakas para harapin ito.",
+      "Sa Psalm 46, after ng line na ito, dine-describe ang mga lindol, bagyo at gulo ng mga bansa. Sa ancient world, ang 'refuge' ay parang walled city o kuta — safe place tuwing may giyera. Kaya sabihing si God ang refuge mo ay sabihing Siya ang matatakbuhan mo kapag magulo ang lahat. At 'strength' — hindi ka lang Niya itatago, bibigyan ka pa Niya ng lakas para harapin ito.",
     today:
       "Bilang Pinoy, sanay tayo sa bagyo, baha at lindol. Pero may mga 'bagyo' rin sa loob — anxiety, heartbreak, burnout. Sa lahat ng 'yan, may matatakbuhan ka na hindi gumuguho.",
     fact: "Ang Psalm 46 ang nag-inspire kay Martin Luther na isulat ang sikat na hymn na 'A Mighty Fortress Is Our God' noong 1529 — isa sa pinaka-kilalang hymns sa history.",
@@ -327,7 +327,7 @@ export const verses: Verse[] = [
     today:
       "Trends, peer pressure, 'Ganyan talaga dito,' 'Lahat naman ginagawa 'yan' — ang dali sumabay sa agos. Pero ang tunay na pagbabago ay nagsisimula sa isip. Ano ang pinapakain mo sa isip mo araw-araw?",
     fact: "Ang Greek word para sa 'transformed' ay 'metamorphoō' — dito galing ang English word na 'metamorphosis,' gaya ng uod na nagiging paru-paro. Parehong word ang ginamit sa Transfiguration ni Jesus!",
-    question: "Saang area ng buhay mo ka 'sumasabay lang sa agos' kahit alam mong hindi tama?",
+    question: "Saang area ng buhay mo ikaw 'sumasabay lang sa agos' kahit alam mong hindi tama?",
     challenge: "Mag-unfollow ng isang account na hindi nakakabuti sa isip mo.",
   },
   {
