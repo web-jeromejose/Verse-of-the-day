@@ -80,11 +80,11 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1, viewport-fit=cover" },
       { name: "theme-color", content: "#f7f1e6" },
-      { title: "30 Sikat na Bible Verses — Explained in Taglish" },
+      { title: "Bible Verses — Explained in Taglish" },
       {
         name: "description",
         content:
-          "30 sa pinaka-sikat na Bible verses, ipinaliwanag sa Taglish na may reflection para sa buhay ngayon, fun facts at quiz.",
+          "Bible verses, ipinaliwanag sa Taglish na may reflection para sa buhay ngayon, fun facts at quiz.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

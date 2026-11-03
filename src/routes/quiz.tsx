@@ -8,10 +8,10 @@ import { buildQuiz, scoreMessage, type Question } from "@/lib/quiz";
 export const Route = createFileRoute("/quiz")({
   head: () => ({
     meta: [
-      { title: "Verse Quiz — 30 Sikat na Bible Verses" },
+      { title: "Verse Quiz — Bible Verses" },
       { name: "description", content: "5 tanong: hulaan kung saang libro at chapter galing ang sikat na Bible verse." },
       { property: "og:title", content: "Verse Quiz — Kilala mo ba ang mga sikat na verses?" },
-      { property: "og:description", content: "Subukan ang galing mo sa 30 sikat na Bible verses." },
+      { property: "og:description", content: "Subukan ang galing mo sa mga Bible verses." },
     ],
   }),
   component: QuizPage,

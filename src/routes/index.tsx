@@ -11,13 +11,13 @@ import { nextDay, useProgress } from "@/lib/progress";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "30 Sikat na Bible Verses — Explained in Taglish" },
+      { title: "Bible Verses — Explained in Taglish" },
       {
         name: "description",
         content:
-          "Basahin ang 30 pinaka-sikat na Bible verses, ipinaliwanag sa Taglish, may reflection para sa buhay ngayon, fun facts at quiz.",
+          "Basahin ang Bible verses, ipinaliwanag sa Taglish, may reflection para sa buhay ngayon, fun facts at quiz.",
       },
-      { property: "og:title", content: "30 Sikat na Bible Verses — Explained in Taglish" },
+      { property: "og:title", content: "Bible Verses — Explained in Taglish" },
       {
         property: "og:description",
         content: "Isang verse kada araw. Taglish na paliwanag, hugot sa buhay ngayon, at fun facts.",
@@ -57,8 +57,6 @@ function Index() {
         <div className="absolute inset-0 -z-10 bg-hero-fade" />
         <div className="px-6 pb-10 pt-14">
           <h1 className="animate-rise text-5xl font-semibold leading-[1.02] tracking-tight text-ink-foreground">
-            30 Sikat na
-            <br />
             <em className="font-medium text-sun">Bible Verses</em>
           </h1>
           <p className="mt-4 max-w-xs animate-rise text-base leading-relaxed text-ink-foreground/90 [animation-delay:120ms]">
