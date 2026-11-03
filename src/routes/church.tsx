@@ -101,7 +101,7 @@ function ChurchPage() {
 
       {/* London satellite */}
       <section className="mt-8 px-5">
-        <h2 className="text-2xl font-semibold text-foreground">JCTGbTg London, UK</h2>
+        <h2 className="text-2xl font-semibold text-foreground">JCTGBTG UK Satellite Church</h2>
         <div className="mt-4 rounded-3xl border bg-card p-6">
           <p className="text-xs font-semibold uppercase tracking-wider text-primary">{church.london.title}</p>
           <p className="mt-2 font-display text-xl font-semibold text-foreground">{church.london.pastor}</p>
