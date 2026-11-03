@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useState } from "react";
-import { ArrowRight, BookOpen, Check, Heart, Shuffle, Sparkles, Trophy } from "lucide-react";
+import { ArrowRight, BookOpen, Check, Church, Heart, Shuffle, Sparkles, Trophy } from "lucide-react";
 
 import hero from "@/assets/hero-sunrise.jpg";
 import { verses, type Verse } from "@/data/verses";
@@ -55,9 +55,12 @@ function Index() {
         />
         <div className="absolute inset-0 -z-10 bg-hero-fade" />
         <div className="px-6 pb-10 pt-14">
-          <span className="inline-flex items-center gap-1.5 rounded-full bg-background/85 px-3 py-1 text-xs font-semibold text-primary backdrop-blur">
+          <Link
+            to="/church"
+            className="inline-flex items-center gap-1.5 rounded-full bg-background/85 px-3 py-1 text-xs font-semibold text-primary backdrop-blur"
+          >
             <Sparkles className="h-3.5 w-3.5" /> JCTGbTg Church · One God
-          </span>
+          </Link>
           <h1 className="mt-5 animate-rise text-5xl font-semibold leading-[1.02] tracking-tight text-ink-foreground">
             30 Sikat na
             <br />
@@ -107,6 +110,19 @@ function Index() {
             <p className="text-sm text-ink-foreground/75">Kilala mo ba kung saan galing ang verse?</p>
           </div>
           <ArrowRight className="h-5 w-5 text-sun" />
+        </Link>
+        <Link
+          to="/church"
+          className="mt-3 flex items-center gap-4 rounded-3xl border bg-card p-5 transition-transform active:scale-[0.98]"
+        >
+          <div className="grid h-12 w-12 shrink-0 place-items-center rounded-2xl bg-sunrise text-primary-foreground">
+            <Church className="h-6 w-6" />
+          </div>
+          <div className="flex-1">
+            <p className="font-display text-lg font-semibold text-foreground">JCTGbTg Church</p>
+            <p className="text-sm text-muted-foreground">One God Creed, worship schedule at events</p>
+          </div>
+          <ArrowRight className="h-5 w-5 text-primary" />
         </Link>
       </section>
 
@@ -162,8 +178,13 @@ function Index() {
       </section>
 
       <footer className="px-6 pt-14 text-center">
-        <p className="font-display text-2xl font-semibold text-foreground">JCTGbTg Church</p>
-        <p className="mt-1 text-xs font-semibold uppercase tracking-[0.3em] text-primary">One God</p>
+        <Link to="/church" className="inline-block">
+          <p className="font-display text-2xl font-semibold text-foreground">JCTGbTg Church</p>
+          <p className="mt-1 text-xs font-semibold uppercase tracking-[0.3em] text-primary">One God</p>
+          <p className="mt-3 inline-flex items-center gap-1 text-sm font-semibold text-primary">
+            Kilalanin ang simbahan <ArrowRight className="h-4 w-4" />
+          </p>
+        </Link>
         <p className="mt-4 text-xs text-muted-foreground">Scripture: NIV & NKJV.</p>
       </footer>
     </main>

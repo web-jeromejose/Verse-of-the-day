@@ -236,7 +236,7 @@ export const verses: Verse[] = [
       "Napakalaki ng Bible — maraming rules, kwento at turo. Kaya tinanong si Jesus: 'Alin ang pinaka-importante?' Ang sagot Niya ay dalawa pero magkadugtong: mahalin si God nang buong-buo, at mahalin ang kapwa gaya ng sarili. Lahat ng iba pang utos ay nakasabit sa dalawang ito. Kung nalilito ka sa faith, dito ka magsimula.",
     today:
       "Ang 'neighbor' mo ay hindi lang kapitbahay — kasama dito ang kakaibang katrabaho, ang nanay mong makulit, ang stranger sa jeep. Love God, love people. Simple, pero hindi madali.",
-    fact: "Hindi bago ang mga utos na ito — kinuha ni Jesus sa Deuteronomy 6:5 at Leviticus 19:18. Ayon sa tradisyon ng mga rabbi, may 613 commandments sa Torah — at sinummarize ni Jesus lahat sa dalawa!",
+    fact: "Kinuha ni Jesus ang utos na ito sa Deuteronomy 6:5 — na sinusundan ng sikat na 'Shema' sa verse 4: 'Hear, O Israel: The Lord our God, the Lord is one.' Sa Mark 12:29, inuna pa ni Jesus banggitin ito: iisa lang ang Diyos! Ayon sa mga rabbi, may 613 commandments sa Torah — at sinummarize ni Jesus lahat sa dalawa.",
     question: "Sino ang 'neighbor' na pinaka-mahirap mong mahalin ngayon?",
     challenge: "Gumawa ng isang konkretong bagay para sa taong 'yon ngayong linggo.",
   },
@@ -248,7 +248,7 @@ export const verses: Verse[] = [
     theme: "Ganito Ka Kamahal",
     why: "Malamang ito ang pinaka-kilalang Bible verse sa buong mundo. Bakit? Kasi ipinapakita nito kung gaano tayo kamahal ni God.",
     explain:
-      "Sinabi ito ni Jesus sa one-on-one conversation sa isang religious leader na si Nicodemus. Inihalintulad ni Jesus ang pananampalataya sa pagiging 'born again' — pagiging bagong tao. Nagiging bago tayo kapag nakilala natin na tayo ay minamahal na anak ni God. 'Whoever' — kasama ka. Walang exception. At ang regalo: buhay na walang hanggan, simula ngayon.",
+      "Sinabi ito ni Jesus sa one-on-one conversation sa isang religious leader na si Nicodemus. Inihalintulad ni Jesus ang pananampalataya sa pagiging 'born again' — ipinanganak sa tubig at sa Espiritu (John 3:5). Ganito tayo kamahal: ang Diyos mismo ay nagpakita sa laman sa pamamagitan ni Jesus (1 Timothy 3:16) para iligtas tayo. 'Whoever' — kasama ka. Walang exception. At ang regalo: buhay na walang hanggan.",
     today:
       "Anuman ang nakaraan mo, anuman ang sinasabi ng iba tungkol sa'yo — kasama ka sa 'the world' na minahal ni God. Ang pag-trust kay Jesus ay pagpasok sa love na 'yon.",
     fact: "Noong 2009, isinulat ng football star na si Tim Tebow ang 'John 3:16' sa eye black niya sa isang championship game — at umabot daw sa halos 94 million ang nag-search nito sa Google! Si Nicodemus naman ay pumunta kay Jesus nang gabi, marahil para walang makakita.",
@@ -278,10 +278,10 @@ export const verses: Verse[] = [
     theme: "The Great Commission",
     why: "Kilala ito bilang 'the Great Commission' — ang huling bilin ni Jesus sa followers Niya pagkatapos ng resurrection at bago bumalik sa langit.",
     explain:
-      "Sa pagtatapos ng buhay ni Jesus sa lupa, nabuhay Siya, nagmahal, nagpagaling at nagbigay ng pag-asa. Pero hindi pa tapos ang misyon — iilan pa lang ang nakakarinig ng good news. Kaya binigyan Niya ang followers Niya ng mission: ikwento si Jesus sa lahat. At ang pinaka-comforting na part? 'Kasama ninyo Ako palagi.' Hindi ka iniwang mag-isa sa misyon.",
+      "Sa pagtatapos ng buhay ni Jesus sa lupa, binigyan Niya ang followers Niya ng mission: ikwento ang Gospel sa lahat. Pansinin ang 'in the NAME' — singular, hindi 'names.' Ang Father, Son at Holy Spirit ay mga titulo ng iisang Diyos, at ang pangalan Niya ay JESUS. Kaya noong sinunod ito ng mga apostol sa Acts 2:38, nagbautismo sila 'in the name of Jesus Christ.' At ang pinaka-comforting na part? 'Kasama ninyo Ako palagi.'",
     today:
       "Hindi mo kailangang maging pastor o missionary abroad. Ang 'go' mo ay pwedeng ang opisina, ang school, ang barkada, o ang pamilya mo. Faith na ibinabahagi, hindi itinatago.",
-    fact: "Ngayon, may buong Bible na sa mahigit 700 languages. Dito sa Pilipinas, ginanap ang unang recorded na Misa sa Limasawa noong Easter Sunday, March 31, 1521.",
+    fact: "Sa Acts 2:38, sinabi ni Peter: 'Repent and be baptized, every one of you, in the name of Jesus Christ for the forgiveness of your sins. And you will receive the gift of the Holy Spirit.' At ayon sa Colossians 2:9, kay Jesus nananahan ang buong kapuspusan ng pagka-Diyos.",
     question: "Sino ang isang tao sa buhay mo na gusto mong makilala si Jesus?",
     challenge: "Ipag-pray ang taong 'yon araw-araw ngayong linggo.",
   },
