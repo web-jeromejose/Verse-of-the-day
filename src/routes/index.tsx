@@ -3,6 +3,7 @@ import { useState } from "react";
 import { ArrowRight, BookOpen, Check, Church, Heart, Shuffle, Sparkles, Trophy } from "lucide-react";
 
 import hero from "@/assets/hero-sunrise.jpg";
+import { ThursdayReminder } from "@/components/ThursdayReminder";
 import { verses, type Verse } from "@/data/verses";
 import { sections, type SectionId } from "@/data/sections";
 import { nextDay, useProgress } from "@/lib/progress";
@@ -93,6 +94,8 @@ function Index() {
           </div>
         </div>
       </section>
+
+      <ThursdayReminder />
 
       <RandomVerse />
 

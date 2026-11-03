@@ -25,6 +25,11 @@ export const church = {
     { title: "Online Sunday Worship Service", when: "10:00 AM sa YouTube · 5:00 PM sa Facebook" },
     { title: "Online General Bible Study", when: "7:00 PM sa YouTube (Huwebes) · 7:00 PM sa Facebook (Biyernes)" },
   ],
+  // Weekly UK Bible study, every Thursday (UK time)
+  ukBibleStudy: {
+    time: "8:00 PM (UK time)",
+    zoomUrl: "https://us02web.zoom.us/j/3103812899?pwd=JCTGBTG",
+  },
   // From https://jctgbtg.com/index.php/find-our-church/
   london: {
     title: "United Kingdom Satellite",
