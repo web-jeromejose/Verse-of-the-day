@@ -25,6 +25,16 @@ export const church = {
     { title: "Online Sunday Worship Service", when: "10:00 AM sa YouTube · 5:00 PM sa Facebook" },
     { title: "Online General Bible Study", when: "7:00 PM sa YouTube (Huwebes) · 7:00 PM sa Facebook (Biyernes)" },
   ],
+  // From https://jctgbtg.com/index.php/find-our-church/
+  london: {
+    title: "United Kingdom Satellite",
+    pastor: "Ptr. Onelia Bucud",
+    venue: "Westway Sports & Fitness Centre",
+    address: "1 Crowthorne Rd., London W10 6RP",
+    service: "Sunday Worship Service · 11:00 AM – 1:30 PM",
+    facebook: "https://www.facebook.com/JCTGBTGLondonUK",
+    mapUrl: "https://www.google.com/maps/search/?api=1&query=Westway+Sports+%26+Fitness+Centre+1+Crowthorne+Road+London+W10+6RP",
+  },
   events: [
     {
       title: "Congregational Fasting",
