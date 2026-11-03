@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useState } from "react";
-import { ArrowRight, BookOpen, Check, Church, Heart, Shuffle, Sparkles, Trophy } from "lucide-react";
+import { ArrowRight, BookOpen, Check, Church, Heart, Shuffle, Trophy } from "lucide-react";
 
 import hero from "@/assets/hero-sunrise.jpg";
 import { ThursdayReminder } from "@/components/ThursdayReminder";
@@ -56,13 +56,7 @@ function Index() {
         />
         <div className="absolute inset-0 -z-10 bg-hero-fade" />
         <div className="px-6 pb-10 pt-14">
-          <Link
-            to="/church"
-            className="inline-flex items-center gap-1.5 rounded-full bg-background/85 px-3 py-1 text-xs font-semibold text-primary backdrop-blur"
-          >
-            <Sparkles className="h-3.5 w-3.5" /> JCTGbTg Church · One God
-          </Link>
-          <h1 className="mt-5 animate-rise text-5xl font-semibold leading-[1.02] tracking-tight text-ink-foreground">
+          <h1 className="animate-rise text-5xl font-semibold leading-[1.02] tracking-tight text-ink-foreground">
             30 Sikat na
             <br />
             <em className="font-medium text-sun">Bible Verses</em>
