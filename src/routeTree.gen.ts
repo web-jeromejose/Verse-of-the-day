@@ -10,12 +10,18 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as ChurchRouteImport } from './routes/church'
 import { Route as QuizRouteImport } from './routes/quiz'
 import { Route as DayDayRouteImport } from './routes/day.$day'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ChurchRoute = ChurchRouteImport.update({
+  id: '/church',
+  path: '/church',
   getParentRoute: () => rootRouteImport,
 } as any)
 const QuizRoute = QuizRouteImport.update({
@@ -31,30 +37,34 @@ const DayDayRoute = DayDayRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/church': typeof ChurchRoute
   '/quiz': typeof QuizRoute
   '/day/$day': typeof DayDayRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/church': typeof ChurchRoute
   '/quiz': typeof QuizRoute
   '/day/$day': typeof DayDayRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/church': typeof ChurchRoute
   '/quiz': typeof QuizRoute
   '/day/$day': typeof DayDayRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/quiz' | '/day/$day'
+  fullPaths: '/' | '/church' | '/quiz' | '/day/$day'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/quiz' | '/day/$day'
-  id: '__root__' | '/' | '/quiz' | '/day/$day'
+  to: '/' | '/church' | '/quiz' | '/day/$day'
+  id: '__root__' | '/' | '/church' | '/quiz' | '/day/$day'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  ChurchRoute: typeof ChurchRoute
   QuizRoute: typeof QuizRoute
   DayDayRoute: typeof DayDayRoute
 }
@@ -66,6 +76,13 @@ declare module '@tanstack/react-router' {
       path: '/'
       fullPath: '/'
       preLoaderRoute: typeof IndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/church': {
+      id: '/church'
+      path: '/church'
+      fullPath: '/church'
+      preLoaderRoute: typeof ChurchRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/quiz': {
@@ -87,6 +104,7 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  ChurchRoute: ChurchRoute,
   QuizRoute: QuizRoute,
   DayDayRoute: DayDayRoute,
 }
