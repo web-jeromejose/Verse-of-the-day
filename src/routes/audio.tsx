@@ -5,7 +5,6 @@ import {
   ArrowLeft,
   ArrowRight,
   BookOpen,
-  Gauge,
   Headphones,
   Lightbulb,
   ListMusic,
@@ -582,7 +581,7 @@ function Explainer({ text }: { text: string }) {
     <section className="px-5 pt-8">
       <div className="flex items-center gap-4 rounded-3xl border-2 border-dashed border-primary/40 bg-card p-5">
         <div className="grid h-12 w-12 shrink-0 place-items-center rounded-2xl bg-accent text-accent-foreground">
-          <Gauge className="h-6 w-6" />
+          <Volume2 className="h-6 w-6" />
         </div>
         <div className="flex-1">
           <p className="font-display text-base font-semibold text-foreground">Pakinggan ang Taglish na paliwanag</p>
