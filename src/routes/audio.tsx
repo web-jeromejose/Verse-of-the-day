@@ -38,7 +38,7 @@ import {
 
 export const Route = createFileRoute("/audio")({
   validateSearch: (s: Record<string, unknown>): { day?: number } => {
-    const d = Number(s.day);
+    const d = Number(s["day"]);
     return d >= 1 && d <= 30 ? { day: d } : {};
   },
   head: () => ({
