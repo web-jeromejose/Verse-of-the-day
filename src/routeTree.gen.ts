@@ -10,6 +10,7 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as AudioRouteImport } from './routes/audio'
 import { Route as ChurchRouteImport } from './routes/church'
 import { Route as QuizRouteImport } from './routes/quiz'
 import { Route as DayDayRouteImport } from './routes/day.$day'
@@ -17,6 +18,11 @@ import { Route as DayDayRouteImport } from './routes/day.$day'
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AudioRoute = AudioRouteImport.update({
+  id: '/audio',
+  path: '/audio',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ChurchRoute = ChurchRouteImport.update({
@@ -37,12 +43,14 @@ const DayDayRoute = DayDayRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/audio': typeof AudioRoute
   '/church': typeof ChurchRoute
   '/quiz': typeof QuizRoute
   '/day/$day': typeof DayDayRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/audio': typeof AudioRoute
   '/church': typeof ChurchRoute
   '/quiz': typeof QuizRoute
   '/day/$day': typeof DayDayRoute
@@ -50,20 +58,22 @@ export interface FileRoutesByTo {
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/audio': typeof AudioRoute
   '/church': typeof ChurchRoute
   '/quiz': typeof QuizRoute
   '/day/$day': typeof DayDayRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/church' | '/quiz' | '/day/$day'
+  fullPaths: '/' | '/audio' | '/church' | '/quiz' | '/day/$day'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/church' | '/quiz' | '/day/$day'
-  id: '__root__' | '/' | '/church' | '/quiz' | '/day/$day'
+  to: '/' | '/audio' | '/church' | '/quiz' | '/day/$day'
+  id: '__root__' | '/' | '/audio' | '/church' | '/quiz' | '/day/$day'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  AudioRoute: typeof AudioRoute
   ChurchRoute: typeof ChurchRoute
   QuizRoute: typeof QuizRoute
   DayDayRoute: typeof DayDayRoute
@@ -76,6 +86,13 @@ declare module '@tanstack/react-router' {
       path: '/'
       fullPath: '/'
       preLoaderRoute: typeof IndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/audio': {
+      id: '/audio'
+      path: '/audio'
+      fullPath: '/audio'
+      preLoaderRoute: typeof AudioRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/church': {
@@ -104,6 +121,7 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  AudioRoute: AudioRoute,
   ChurchRoute: ChurchRoute,
   QuizRoute: QuizRoute,
   DayDayRoute: DayDayRoute,
