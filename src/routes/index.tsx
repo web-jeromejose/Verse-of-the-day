@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useState } from "react";
-import { ArrowRight, BookOpen, Check, Church, Heart, Shuffle, Trophy } from "lucide-react";
+import { ArrowRight, BookOpen, Check, Church, Headphones, Heart, Shuffle, Trophy } from "lucide-react";
 
 import hero from "@/assets/hero-sunrise.jpg";
 import { ThursdayReminder } from "@/components/ThursdayReminder";
@@ -91,6 +91,20 @@ function Index() {
 
       {/* Quiz CTA */}
       <section className="px-5 pt-6">
+        <Link
+          to="/audio"
+          search={{ day: continueDay }}
+          className="mb-3 flex items-center gap-4 rounded-3xl bg-sunrise p-5 text-primary-foreground shadow-glow transition-transform active:scale-[0.98]"
+        >
+          <div className="grid h-12 w-12 shrink-0 place-items-center rounded-2xl bg-primary-foreground/20">
+            <Headphones className="h-6 w-6" />
+          </div>
+          <div className="flex-1">
+            <p className="font-display text-lg font-semibold">Pakinggan</p>
+            <p className="text-sm text-primary-foreground/85">Libreng audio ng bawat verse, may read-along</p>
+          </div>
+          <ArrowRight className="h-5 w-5" />
+        </Link>
         <Link
           to="/quiz"
           className="flex items-center gap-4 rounded-3xl bg-ink-gradient p-5 text-ink-foreground shadow-soft transition-transform active:scale-[0.98]"

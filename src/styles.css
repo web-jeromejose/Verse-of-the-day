@@ -241,3 +241,44 @@
     display: none;
   }
 }
+
+@utility animate-eq {
+  animation: eq 0.9s ease-in-out infinite;
+}
+
+@keyframes eq {
+  0%,
+  100% {
+    height: 25%;
+  }
+  50% {
+    height: 100%;
+  }
+}
+
+@utility audio-range {
+  appearance: none;
+  height: 6px;
+  border-radius: 9999px;
+  background: linear-gradient(
+    to right,
+    var(--sun) 0%,
+    var(--sun) var(--pct, 0%),
+    color-mix(in oklab, var(--ink-foreground) 20%, transparent) var(--pct, 0%)
+  );
+  &::-webkit-slider-thumb {
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border-radius: 9999px;
+    background: var(--sun);
+    box-shadow: var(--shadow-glow);
+  }
+  &::-moz-range-thumb {
+    width: 18px;
+    height: 18px;
+    border: 0;
+    border-radius: 9999px;
+    background: var(--sun);
+  }
+}
