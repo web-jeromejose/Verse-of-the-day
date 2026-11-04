@@ -5,6 +5,7 @@ import {
   ArrowRight,
   Check,
   Copy,
+  Headphones,
   Heart,
   Lightbulb,
   PenLine,
@@ -161,6 +162,13 @@ function DayPage() {
             <button onClick={share} className="flex items-center gap-1.5 rounded-full bg-ink-foreground/10 px-4 py-2 text-sm font-semibold">
               <Share2 className="h-4 w-4" /> Share
             </button>
+            <Link
+              to="/audio"
+              search={{ day: v.day }}
+              className="flex items-center gap-1.5 rounded-full bg-sun px-4 py-2 text-sm font-semibold text-ink"
+            >
+              <Headphones className="h-4 w-4" /> Pakinggan
+            </Link>
           </div>
         </section>
 
