@@ -10,5 +10,6 @@
 <!-- LOVABLE:END -->
 
 - Plan content (all 30 days) lives in `src/data/verses.ts`; pages read from it, never hardcode verse copy in routes. Why: one place to edit wording.
+- Store biblical context references with each verse and render paragraph breaks from the shared copy. Why: keep supporting passages and readable explanations consistent across views.
 - Reader progress, favorites and notes are stored on-device via `src/lib/progress.ts` (localStorage, read after hydration). Why: no accounts needed.
 - Audio page uses the free public-domain BSB audio + per-verse timings from bible.helloao.org (`src/lib/audio.ts`), fetched in the browser. Why: no API key or hosting cost.

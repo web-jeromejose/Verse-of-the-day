@@ -33,6 +33,8 @@ export const Route = createFileRoute("/day/$day")({
         { name: "description", content: loaderData.why },
         { property: "og:title", content: title },
         { property: "og:description", content: loaderData.text },
+        { property: "og:type", content: "article" },
+        { name: "twitter:card", content: "summary_large_image" },
       ],
     };
   },
@@ -190,7 +192,21 @@ function DayPage() {
             ))}
           </div>
           <div key={tab} className="mt-4 animate-rise rounded-3xl border bg-card p-6">
-            <p className="text-[1.05rem] leading-relaxed text-card-foreground">{v[tab]}</p>
+            <div className="space-y-4 text-[1.05rem] leading-relaxed text-card-foreground">
+              {v[tab].split("\n\n").map((paragraph, index) => (
+                <p key={index}>{paragraph}</p>
+              ))}
+            </div>
+            {tab !== "today" && (
+              <a
+                href={`https://www.biblegateway.com/passage/?search=${encodeURIComponent(v.context)}&version=NIV`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-5 block border-t pt-4 text-sm font-semibold leading-relaxed text-primary underline underline-offset-4"
+              >
+                Basahin ang konteksto: {v.context}
+              </a>
+            )}
             {tab !== "today" && (
               <button
                 onClick={() => setTab(tab === "why" ? "explain" : "today")}

@@ -12,6 +12,8 @@ export const Route = createFileRoute("/quiz")({
       { name: "description", content: "5 tanong: hulaan kung saang libro at chapter galing ang sikat na Bible verse." },
       { property: "og:title", content: "Verse Quiz — Kilala mo ba ang mga sikat na verses?" },
       { property: "og:description", content: "Subukan ang galing mo sa mga Bible verses." },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
   component: QuizPage,
