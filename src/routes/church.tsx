@@ -15,6 +15,8 @@ export const Route = createFileRoute("/church")({
       { property: "og:description", content: "This is a church for all. This is where you belong." },
       { property: "og:image", content: church.bishop.photo },
       { name: "twitter:image", content: church.bishop.photo },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
   component: ChurchPage,

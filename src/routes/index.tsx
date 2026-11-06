@@ -18,6 +18,8 @@ export const Route = createFileRoute("/")({
           "Basahin ang Bible verses, ipinaliwanag sa Taglish, may reflection para sa buhay ngayon, fun facts at quiz.",
       },
       { property: "og:title", content: "Bible Verses — Explained in Taglish" },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
       {
         property: "og:description",
         content: "Isang verse kada araw. Taglish na paliwanag, hugot sa buhay ngayon, at fun facts.",
