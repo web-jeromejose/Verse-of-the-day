@@ -13,7 +13,6 @@ export type Verse = {
   challenge: string;
 };
 
-// Source: "30 Famous Bible Verses Explained" reading plan by Life.Church (Bible App / YouVersion).
 // Verse text is NIV unless noted. Explanations rewritten in Taglish.
 export const verses: Verse[] = [
   {
@@ -28,7 +27,7 @@ export const verses: Verse[] = [
       "Ang Genesis 1:1 ang pambungad sa salaysay ng paglikha. Sa kasunod na mga talata, inilalarawan ang pag-aayos ni God ng liwanag, langit, lupa, mga halaman at mga nilalang. Paulit-ulit ang pagkilala na mabuti ang Kanyang ginawa, at sa Genesis 1:26–27, ang tao ay nilikha sa larawan ng Diyos. Doon mas direktang naka-ugat ang pagtuturo tungkol sa dignidad ng bawat tao.\n\nAng ‘heavens and the earth’ ay tumutukoy sa kabuuan ng nilikhang daigdig. Hindi nagbibigay ang verse ng detalyadong scientific mechanism o personal na career plan. Ang malinaw nitong diin: nauna si God sa kuwento, Siya ang lumilikha, at ang creation ay nasa ilalim ng Kanyang kapangyarihan. Kaya ang pag-aalaga sa kapwa at sa mundo ay makabuluhang tugon sa pagkilala sa Creator.",
     today:
       "Sa panahon ng likes, views at comparison sa social media, ang dali maramdaman na 'wala akong kwenta.' Pero bago ka pa nag-post ng kahit ano, may halaga ka na. Hindi algorithm ang nagde-define sa'yo — ang Creator mo.",
-    fact: "Ang Hebrew word para sa 'created' dito ay 'bara' — at sa buong Hebrew Bible, si God lang ang ginagamitang subject ng word na 'yan. Ang Genesis sa Hebrew ay tinatawag na 'Bereshit,' ibig sabihin 'In the beginning.'",
+    fact: "Ang Genesis sa Hebrew ay tinatawag na ‘Bereshit,’ mula sa opening words na ‘In the beginning.’ Ang verb na baraʾ sa kahulugang paglikha ay ginagamit sa Hebrew Bible na ang Diyos ang gumagawa; hindi dapat i-generalize ang claim sa lahat ng gamit ng kaparehong root.",
     question: "Kailan mo huling naramdaman na parang hindi ka mahalaga? Ano ang sasabihin ng verse na ito sa'yo noon?",
     challenge: "Isulat ang isang bagay na gusto mong gawin ngayong buwan na tingin mo ay part ng purpose mo.",
   },
@@ -60,7 +59,7 @@ export const verses: Verse[] = [
       "Ipinakikilala ng pamagat ng Psalm 23 ang awit bilang kay David. Ang ‘my shepherd’ ay personal na pagpapahayag ng pagtitiwala: ang Lord ang gumagabay at nag-aalaga. Sa verses 2–3, inilalarawan ang pahinga, pagpapanumbalik ng lakas at paggabay sa tamang landas. Ang ‘I lack nothing’ ay hindi pangakong makukuha ang bawat luho o hindi na makararanas ng hirap.\n\nSa verse 4, naroon pa rin ang ‘darkest valley,’ pero naroon din ang presensya ng Diyos. Sa verse 5, may mga kaaway pa rin, pero may pag-aaruga. Kaya ang punto ay hindi problem-free life, kundi pagtitiwala sa Shepherd sa bawat season. Sa John 10:11, tinawag ni Jesus ang sarili Niya na Good Shepherd na nagbibigay ng buhay para sa mga tupa—mas malalim na larawan ng Kanyang pag-aalaga.",
     today:
       "Kahit gaano kadilim ang season mo — nawalan ng trabaho, may sakit sa bahay, malayo sa pamilya bilang OFW — may Shepherd na hindi umaalis sa tabi mo.",
-    fact: "Ang Psalm 23 ay attributed kay David — na mismong shepherd boy bago naging hari. Kaya alam niya talaga ang ibig sabihin ng pag-aalaga ng tupa! Isa rin ito sa pinaka-madalas basahin sa mga lamay at libing.",
+    fact: "Ang heading ng Psalm 23 ay nag-uugnay dito kay David. Sa 1 Samuel 16:11, inaalagaan niya ang mga tupa; sa 1 Samuel 17:34–35, ikinuwento niya ang pagtatanggol sa mga ito laban sa lion at bear.",
     question: "Saang area ng buhay mo kailangan mong maramdaman ngayon na may nag-aalaga sa'yo?",
     challenge: "Basahin ang buong Psalm 23 (6 verses lang!) bago matulog ngayong gabi.",
   },
@@ -76,7 +75,7 @@ export const verses: Verse[] = [
       "Isang awit ng pagtitiwala ang Psalm 46. Pagkatapos sabihing refuge at strength si God, inilalarawan ng verses 2–3 ang tila pagguho ng kalikasan, at ng verse 6 ang kaguluhan ng mga bansa. Kahit sa ganoong mga larawan, inuulit ng awit na kasama nila ang Lord (verses 7 at 11). Hindi kailangan munang maging maayos ang lahat bago Siya lapitan.\n\nAng ‘refuge’ ay kanlungan, at ang ‘strength’ ay lakas na hindi lang galing sa sariling resources. Sa verses 8–10, ipinapakita rin ang Diyos bilang makapangyarihang nagpapatigil ng digmaan. Ang ‘be still’ sa verse 10 ay nasa konteksto ng pagkilala sa Kanyang kapangyarihan, hindi simpleng relaxation tip. Puwedeng magdasal at humingi ng tulong habang gumagawa rin ng practical safety measures; ang faith ay hindi dahilan para balewalain ang panganib.",
     today:
       "Bilang Pinoy, sanay tayo sa bagyo, baha at lindol. Pero may mga 'bagyo' rin sa loob — anxiety, heartbreak, burnout. Sa lahat ng 'yan, may matatakbuhan ka na hindi gumuguho.",
-    fact: "Ang Psalm 46 ang nag-inspire kay Martin Luther na isulat ang sikat na hymn na 'A Mighty Fortress Is Our God' noong 1529 — isa sa pinaka-kilalang hymns sa history.",
+    fact: "Dalawang beses na inuulit sa Psalm 46 ang assurance na kasama nila ang Lord (verses 7 at 11). Sa verses 8–9, ipinapakitang ang Diyos ay makapangyarihang nagpapatigil ng mga digmaan.",
     question: "Saan ka usually tumatakbo kapag stressed ka — phone, pagkain, tulog? Paano kung kay God muna?",
     challenge: "Next time na ma-overwhelm ka, ulitin nang dahan-dahan: 'God, Ikaw ang refuge at lakas ko.'",
   },
@@ -92,7 +91,7 @@ export const verses: Verse[] = [
       "Ang Psalm 119 ay mahabang awit tungkol sa pagtuturo, mga utos at pangako ng Diyos. Hindi nito tinutukoy ang Bible bilang magic tool para makakuha ng instant answer sa bawat desisyon. Sa verse 105, ang larawan ng lampara ay nagpapakita na ang salita ni God ang gabay sa landas ng pamumuhay. Sa verse 106, may pangakong sundin ang Kanyang matuwid na mga utos.\n\nMay paghihirap pa rin sa verse 107 at panganib sa verses 109–110. Kaya ang paggabay ng Word ay hindi guarantee na magiging madali ang daan. Binabasa, pinagninilayan at sinusunod ito kahit mahirap. Para sa atin, mas tapat na application ang pag-unawa sa konteksto ng binabasa at pagsunod sa malinaw na turo nito, kaysa pagpili ng isolated verse para suportahan ang gusto na natin.",
     today:
       "Ang dami nating naririnig na opinion — TikTok, kapitbahay, group chat, mga 'expert.' Sa gitna ng ingay, may isang source ng truth na pwede mong sandalan. Isa sa pinaka-magandang paraan para makilala si Jesus ay basahin ang Word Niya.",
-    fact: "Ang Psalm 119 ang pinaka-mahabang chapter sa Bible — 176 verses! Isa itong acrostic poem: 22 sections para sa 22 letters ng Hebrew alphabet, tig-8 verses bawat isa. At ang ancient oil lamp ay maliit na clay lamp na ilang hakbang lang ang naiilawan.",
+    fact: "May 176 verses ang Psalm 119. Isa itong acrostic na may 22 sections, kaugnay ng 22 letters ng Hebrew alphabet, at tig-8 verses ang bawat section. Ang section ng verse 105 ay nasa verses 105–112.",
     question: "Anong desisyon ang hinaharap mo ngayon na kailangan mo ng 'liwanag'?",
     challenge: "Pumili ng oras araw-araw (kahit 5 mins) para magbasa ng Bible ngayong linggo.",
   },
@@ -140,7 +139,7 @@ export const verses: Verse[] = [
       "Sumulat si Jeremiah sa mga taga-Judah na dinala sa Babylon. Sa verses 5–7, pinayuhan silang magtayo ng bahay, magtanim, bumuo ng pamilya at ipanalangin ang kapayapaan ng lungsod na kinaroroonan nila. Hindi sila sinabihang babalik agad; sa verse 10, binanggit ang seventy years para sa Babylon bago ang ipinangakong pagbabalik.\n\nAng ‘you’ sa verse 11 ay para sa komunidad na iyon. Ang ‘prosper’ ay kaugnay ng kanilang kapakanan at kapayapaan, hindi garantiyang yumaman ang bawat tao. Kasama sa verses 12–14 ang pananalangin, paghahanap kay God at restoration. Para sa atin, makikita rito ang katapatan ng Diyos at pag-asang hindi limitado sa mabilis na resulta. Hindi tapat sa konteksto na gamitin ito bilang tiyak na pangako ng dream job, easy life o tagumpay sa bawat plano.",
     today:
       "Na-reject sa job application? Hindi natuloy ang plano? Feeling mo stuck ka habang ang iba ay umuusad? Hindi ka invisible kay God. Malapit pa rin Siya at may pakialam Siya.",
-    fact: "Ito ay bahagi ng sulat ni Jeremiah sa mga exiles sa Babylon. Sa verse 10, sinabi ni God na tatagal ang exile ng 70 years — kaya ang 'hope and a future' ay pangakong pang-matagalan, hindi instant.",
+    fact: "Sulat ito sa mga exiles sa Babylon. Sa Jeremiah 29:10, binanggit ang seventy years para sa Babylon bago ang pangakong pagbabalik. Hindi ibig sabihin na eksaktong seventy years na exile ang personal na mararanasan ng bawat recipient.",
     question: "Kailan mo naramdaman na parang nakalimutan ka ni God? Paano ka Niya inalalayan noon?",
     challenge: "Isulat ang 3 beses na nakita mong tinulungan ka ni God dati. Balikan ito kapag nagdududa ka.",
   },
@@ -188,7 +187,7 @@ export const verses: Verse[] = [
       "Sa Luke 2:8–12, nagpakita ang anghel sa mga shepherd at ipinahayag ang good news ng malaking kagalakan. Ang ‘town of David’ ay Bethlehem, na tinukoy rin sa verse 4. Ang sanggol na nasa sabsaban ang sign na ibinigay sa kanila. Ipinapakita ng salaysay ang contrast ng payak na tagpo at ng mataas na pagkakakilanlan ng ipinanganak.\n\nAng Savior ay tagapagligtas; ang Messiah o Christ ay ang pinahiran o itinalagang hinirang; at ang Lord ay pagpapahayag ng Kanyang pagkakakilanlan at awtoridad. Hindi kailangang magdagdag ng hindi sinasabi ng teksto, gaya ng eksaktong birthday o pahayag na lahat ng shepherd ay itinakwil ng lipunan. Sa verses 15–20, pumunta sila, nakita si Jesus at ibinahagi ang narinig. Ang good news ay humantong sa pagsamba at pagpapatotoo.",
     today:
       "Sa Pilipinas, September pa lang Pasko na! Pero sa gitna ng ham, noche buena at Christmas party, ang totoong regalo: dumating si Jesus para sa'yo — hindi dahil karapat-dapat ka, kundi dahil mahal ka Niya.",
-    fact: "Si Luke ay isang doktor (Colossians 4:14). Ang 'town of David' ay Bethlehem — na sa Hebrew ay ibig sabihing 'house of bread.' Bagay, kasi tinawag ni Jesus ang sarili Niya na 'Bread of Life.'",
+    fact: "Sa Luke 2:4, ang ‘town of David’ ay Bethlehem. Sa Luke 2:12, ang sign na ibinigay sa shepherds ay isang sanggol na nakabalot sa tela at nakahiga sa sabsaban. Hindi binanggit sa chapter ang eksaktong petsa ng Kanyang kapanganakan.",
     question: "Kung ikaw ang isa sa mga shepherd na nakarinig nito, ano ang mararamdaman mo?",
     challenge: "Ikwento sa isang kaibigan kung bakit mahalaga sa'yo si Jesus — kahit isang pangungusap lang.",
   },
@@ -220,7 +219,7 @@ export const verses: Verse[] = [
       "Sa Matthew 7:2, sinasabi ni Jesus na ang pamantayang ginagamit natin sa paghusga ay gagamitin din sa atin. Sa verses 3–5, inilalarawan Niya ang taong nakikita ang maliit na puwing ng kapwa pero hindi ang malaking troso sa sarili. Tinatawag Niya itong hypocrisy. Ang unang hakbang ay alisin ang sariling troso, para makakita nang malinaw sa pagtulong sa kapwa.\n\nPansinin: hindi sinasabing huwag nang tulungan ang kapwa sa kanilang mali. Ang ipinagbabawal ay mapagmataas at dobleng pamantayan. Sa verses 15–20, kailangan pa ring kilalanin ang false prophets sa kanilang bunga. Kaya puwedeng suriin ang maling gawa at magtakda ng ligtas na boundaries, pero hindi magkunwaring tayo ay walang kasalanan o alam natin ang lahat tungkol sa puso ng iba.",
     today:
       "Ang dali mag-judge sa comment section, sa chismis sa kanto, o sa group chat. Bago mag-type ng 'Ay grabe siya,' tingnan muna ang sariling puso.",
-    fact: "Si Jesus ay lumaki bilang 'tekton' — karpintero o builder. Kaya hindi nakakagulat na gumamit Siya ng wood imagery: puwing (speck of sawdust) vs. troso (plank)!",
+    fact: "Magkatabi sa Matthew 7 ang pagtuturo laban sa hypocritical judgment (verses 1–5) at babala tungkol sa false prophets (verses 15–20). Kaya may parehong self-examination at maingat na discernment sa iisang chapter.",
     question: "Sino ang taong madalas mong husgahan? Ano kaya ang hindi mo alam tungkol sa pinagdadaanan niya?",
     challenge: "Ngayong araw, palitan ang isang judgmental na isip ng isang prayer para sa taong 'yon.",
   },
@@ -236,7 +235,7 @@ export const verses: Verse[] = [
       "Hindi nagtatapos ang invitation sa verse 28. Sa verses 29–30, sinasabi ni Jesus na kunin ang Kanyang pamatok at matuto mula sa Kanya, dahil Siya ay gentle at humble in heart. Ang pamatok ay kagamitan para sa paggawa; sa larawang ito, may pagsunod at pagkatuto, hindi pagtalikod sa lahat ng responsibilidad.\n\nAng ‘rest for your souls’ ay mas malalim kaysa pahinga ng katawan. Iniaalok ni Jesus ang buhay na nasa ilalim ng Kanyang maamong pamamahala. Hindi nito ipinapangakong hindi na mahihirapan ang disciple—sa ibang talata, may pagtuturo rin Siya tungkol sa pagdadala ng krus. Ang contrast dito ay hindi pagitan ng paggawa at kawalan ng ginagawa, kundi ng mabigat na pasan at paglapit sa gurong maamo. Ang practical rest at paghingi ng tulong ay hindi salungat sa pagtitiwala sa Kanya.",
     today:
       "Overtime, side hustle, hustle culture — 'Rest when you're dead' daw. Pero si Jesus mismo ang nag-iimbita: magpahinga ka sa Akin. Hindi mo kailangang buhatin lahat.",
-    fact: "Sa sunod na verse, binanggit ni Jesus ang 'yoke' (pamatok) — kahoy na pinapasan ng dalawang kalabaw para magtulungan sa pag-araro. Noon, ang turo ng isang rabbi ay tinatawag ding 'yoke.' Sabi ni Jesus: 'magaan ang yoke Ko.'",
+    fact: "Ang invitation na magpahinga sa Matthew 11:28 ay sinusundan ng ‘take my yoke’ at ‘learn from me’ sa verse 29. Magkasama sa passage ang rest at discipleship, hindi magkasalungat.",
     question: "Anong 'pasan' ang gusto mong ibaba ngayon?",
     challenge: "I-off ang notifications ng 1 oras ngayong araw at gamitin ito para magpahinga o mag-pray.",
   },
@@ -252,7 +251,7 @@ export const verses: Verse[] = [
       "Sa Matthew 22:34–36, isang expert sa Law ang nagtanong kay Jesus upang subukin Siya: alin ang greatest commandment? Sumagot Siya mula sa Deuteronomy 6:5 tungkol sa buong pagmamahal sa Diyos, at Leviticus 19:18 tungkol sa pagmamahal sa kapwa. Sa Matthew 22:40, sinabi Niya na nakasalalay sa dalawang ito ang Law at ang Prophets.\n\nAng Deuteronomy 6:4–5 ay nagsisimula sa pagkilala na ang Lord ay iisa. Kaya ang wholehearted love ay hindi hati-hating devotion. Ang ‘as yourself’ ay pamantayan ng malasakit sa kapwa, hindi hiwalay na utos na unahin palagi ang sarili. Ang pag-ibig dito ay may konkretong pagsunod, katapatan at malasakit; hindi nito tinatawag na love ang pagkunsinti sa mali o pang-aabuso. Magkaugnay ang pagmamahal sa Diyos at makatarungang pagtrato sa kapwa.",
     today:
       "Ang 'neighbor' mo ay hindi lang kapitbahay — kasama dito ang kakaibang katrabaho, ang nanay mong makulit, ang stranger sa jeep. Love God, love people. Simple, pero hindi madali.",
-    fact: "Kinuha ni Jesus ang utos na ito sa Deuteronomy 6:5 — na sinusundan ng sikat na 'Shema' sa verse 4: 'Hear, O Israel: The Lord our God, the Lord is one.' Sa Mark 12:29, inuna pa ni Jesus banggitin ito: iisa lang ang Diyos! Ayon sa mga rabbi, may 613 commandments sa Torah — at sinummarize ni Jesus lahat sa dalawa.",
+    fact: "Ang first commandment ay mula sa Deuteronomy 6:5, na nauuna ang pagkilala sa iisang Lord sa verse 4. Ang second commandment ay mula sa Leviticus 19:18. Sa Mark 12:29–31, kasama mismo sa sagot ni Jesus ang ‘the Lord is one.’",
     question: "Sino ang 'neighbor' na pinaka-mahirap mong mahalin ngayon?",
     challenge: "Gumawa ng isang konkretong bagay para sa taong 'yon ngayong linggo.",
   },
@@ -268,7 +267,7 @@ export const verses: Verse[] = [
       "Bahagi ito ng John 3, na nagsisimula sa pag-uusap ni Jesus at Nicodemus tungkol sa bagong kapanganakan. Sa verses 14–15, inihahambing ang pagtataas ng Anak ng Tao sa pagtataas ni Moses ng ahas sa ilang (Numbers 21:4–9), na nagtuturo sa pagliligtas sa pamamagitan ni Jesus. Sa verse 17, ang layunin ng pagparito Niya ay iligtas ang mundo.\n\nSa pananampalataya ng JCTGBTG, ang iisang Diyos ay nahayag sa laman kay Jesus; ang Anak ay hindi ikalawang Diyos. Ang verse 16 ay nagpapahayag ng pag-ibig na may sakripisyo. Ang ‘believes’ ay hindi lang pag-alam sa isang religious fact, kundi pagtitiwala kay Jesus. Basahin din ang John 3:5 at 3:19–21: may bagong kapanganakan at paglapit sa liwanag. Hindi nito sinasabing awtomatikong ligtas ang lahat anuman ang tugon nila.",
     today:
       "Anuman ang nakaraan mo, anuman ang sinasabi ng iba tungkol sa'yo — kasama ka sa 'the world' na minahal ni God. Ang pag-trust kay Jesus ay pagpasok sa love na 'yon.",
-    fact: "Noong 2009, isinulat ng football star na si Tim Tebow ang 'John 3:16' sa eye black niya sa isang championship game — at umabot daw sa halos 94 million ang nag-search nito sa Google! Si Nicodemus naman ay pumunta kay Jesus nang gabi, marahil para walang makakita.",
+    fact: "Sa John 3:2, gabi nang dumating si Nicodemus; hindi sinabi kung bakit ganoon ang oras niya. Lumitaw rin siya sa John 7:50–51 at tumulong sa paglilibing kay Jesus sa John 19:39–40.",
     question: "Paano magbabago ang araw mo kung talagang naniniwala kang ganito ka kamahal?",
     challenge: "I-memorize ang John 3:16 ngayong araw — sa English o Tagalog.",
   },
@@ -316,7 +315,7 @@ export const verses: Verse[] = [
       "Sa Romans 3:9, inilalarawan ni Paul ang Jews at Gentiles bilang parehong nasa ilalim ng kasalanan. Ang ‘all have sinned’ ay hindi simpleng pagsasabing lahat may minor flaws; may tunay na pagkukulang sa harap ng kabanalan at kaluwalhatian ng Diyos. Sa verses 21–22, ipinapaliwanag ang righteousness na ibinibigay ni God sa pamamagitan ng faith kay Jesus.\n\nAng ‘justified’ ay pagiging itinuring na matuwid sa harap ng Diyos, at ang ‘redemption’ ay pagliligtas na dumating kay Christ. Ang grace ay regalo, hindi gantimpala sa taong may pinakamagandang record. Pero hindi sinasabi ng passage na awtomatikong justified ang lahat kahit tanggihan si Jesus; malinaw ang kaugnayan sa faith. Sa verse 27, nawawala ang dahilan para magmalaki. Ang tamang tugon ay pagpapakumbaba, pagsisisi at pagtitiwala, hindi pagkunsinti sa kasalanan.",
     today:
       "Hindi mo kailangang mag-pretend na perfect ka — sa Instagram man o sa simbahan. Alam na ni God ang mga pagkukulang mo, at inaalok pa rin Niya ang grace. Forgiven, loved, made new.",
-    fact: "Ang Greek word para sa 'sin' (hamartia) ay madalas iugnay sa archery — 'missing the mark,' parang palasong hindi tumama sa target. Isinulat ang Romans mga AD 57.",
+    fact: "Sa Romans 3:9, parehong Jews at Gentiles ang inilalarawan na nasa ilalim ng kasalanan. Sa Romans 3:22, ang righteousness na mula sa Diyos ay iniuugnay sa faith kay Jesus. Mahalaga ang dalawang ito sa pagbasa ng verses 23–24.",
     question: "Mayroon ka bang bagay na pakiramdam mo ay 'hindi na mapapatawad'?",
     challenge: "Sabihin kay God nang tapat ang isang bagay na pinagsisisihan mo, at tanggapin ang grace Niya.",
   },
@@ -364,7 +363,7 @@ export const verses: Verse[] = [
       "Nasa pagitan ng pagtuturo tungkol sa spiritual gifts sa chapters 12 at 14 ang chapter 13. Sa verses 1–3, sinasabi ni Paul na kahit may impressive gifts, kaalaman o malaking sakripisyo, walang pakinabang kung walang love. Ang patient, kind at hindi mapagmataas na pag-ibig ay sagot sa kompetisyon at pagkakabahagi sa church.\n\nPuwedeng ilapat ito sa marriage, pero hindi romantic love lang ang tinutukoy. Ang ‘keeps no record of wrongs’ ay hindi paggamit ng bawat pagkakamali bilang sandata. Ang ‘always trusts’ ay hindi utos na paniwalaan ang bawat kasinungalingan o manatili sa abuse; sa verse 6, ang love ay hindi natutuwa sa evil at nakikiisa sa truth. Ang pagtitiis ay hindi pagkunsinti sa pananakit. Ang tapat na love ay may kabutihan, katotohanan at pagkalinga sa kaligtasan ng kapwa.",
     today:
       "Subukan mo: palitan ang 'love' ng pangalan mo. 'Si ___ ay patient, si ___ ay kind, si ___ ay hindi madaling magalit...' Medyo nakaka-tama, 'di ba? Ito ang love na ipinakita ni Jesus — at kayang palaguin sa'yo.",
-    fact: "Ang Greek word dito para sa love ay 'agapē' — selfless, unconditional na pag-ibig. Ang Corinth ay mayamang port city na kilala sa pagiging mapagmataas at magulo — kaya swak ang bilin ni Paul.",
+    fact: "Ang 1 Corinthians 13 ay nasa pagitan ng dalawang chapters tungkol sa spiritual gifts. Ang Greek word na agapē ay ‘love’; inilalarawan ng mismong passage ang character nito. Hindi dapat ibatay ang buong kahulugan sa popular na definition ng word lamang.",
     question: "Sa listahang ito, alin ang pinaka-mahirap para sa'yo ngayon?",
     challenge: "Pumili ng isang katangian (hal. patience) at i-practice ito sa isang tao ngayong araw.",
   },
@@ -379,8 +378,8 @@ export const verses: Verse[] = [
     explain:
       "Sa 2 Corinthians 5:14–15, sinasabi ni Paul na ang pag-ibig ni Christ ang nagtutulak sa kanila at ang mga nabubuhay ay hindi na dapat mabuhay para lang sa sarili. Sa verse 16, may bagong paraan ng pagtingin sa tao. Ang verse 17 ay nagpapahayag ng malaking pagbabagong may kaugnayan sa pagiging ‘in Christ,’ hindi lamang bagong habits o mas magandang self-image.\n\nSa verses 18–20, ang pinagmulan ng pagbabagong ito ay God na nagre-reconcile ng mga tao sa Kanya sa pamamagitan ni Christ. May kasama itong tungkuling ipahayag ang mensahe ng reconciliation. Hindi ibig sabihin na nawawala agad ang lahat ng consequences, memories o struggles ng nakaraan. Ang bagong identity ay simula ng bagong direksyon: pamumuhay para kay Jesus, pagtanggap ng Kanyang gawa at patuloy na pagpapabago sa Kanya.",
     today:
-      "Hindi mo kailangang hintayin ang New Year para sa fresh start. Sa kay Jesus, pwede mong iwan ang luma at pumasok sa bagong buhay na puno ng pag-asa — ngayon na.",
-    fact: "Si Paul mismo ay buhay na halimbawa nito! Dati siyang si Saul, na nang-uusig at nagpapakulong ng mga Christians — bago siya nakatagpo kay Jesus sa daan papuntang Damascus at nabago ang buhay niya.",
+      "Hindi mo kailangang hintayin ang New Year para sa fresh start. Kay Jesus, pwede mong iwan ang luma at pumasok sa bagong buhay na puno ng pag-asa — ngayon na.",
+    fact: "Si Paul ay dating nang-uusig sa church, gaya ng sarili niyang salaysay sa Galatians 1:13. Sa Acts 13:9, nakasaad na si Saul ay tinatawag ding Paul: dalawang pangalan ng iisang tao, hindi isang conversion name-change story.",
     question: "Anong 'luma' sa buhay mo ang gusto mo nang iwan?",
     challenge: "Isulat ang isang 'old' na gusto mong bitawan at isang 'new' na gusto mong yakapin.",
   },
@@ -396,7 +395,7 @@ export const verses: Verse[] = [
       "Sa Galatians 5:13–14, ang freedom ng believers ay hindi dapat maging pagkakataon para sa selfishness; dapat itong gamitin sa paglilingkod sa isa’t isa sa love. Sa verses 16–21, ipinapakita ang contrast ng pamumuhay ayon sa Espiritu at ng mga gawang salungat dito, kabilang ang inggit, galit at pagkakabahagi. Dito sumusunod ang listahan ng fruit of the Spirit.\n\nAng love, joy, peace, patience, kindness, goodness, faithfulness, gentleness at self-control ay hindi magkakahiwalay na badges na pipiliin lang kung convenient. Inilalarawan nila ang character na hinuhubog ng Diyos sa believers. Pero hindi passive ang tao: sa verses 24–25, may pagtalikod sa makasalanang desires at pananatiling kasabay ng Espiritu. Ang paglago ay may pagtitiwala at aktuwal na pagsunod, hindi simpleng pag-asang kusang mawawala ang lahat ng bad habits.",
     today:
       "Gusto mo bang maging mas pasensyoso sa traffic? Mas mabait sa kapatid? Hindi ito puro willpower — lumalago ito kapag nananatili kang konektado kay God araw-araw.",
-    fact: "Pansinin: 'fruit' — singular, hindi 'fruits'! Sa Greek (karpos), isang bunga na may siyam na 'flavor.' Hindi ka pumipili ng isa o dalawa lang; sabay-sabay silang lumalago.",
+    fact: "Singular ang Greek word na karpos (‘fruit’) sa Galatians 5:22. Siyam na qualities ang inililista, pero hindi pinatutunayan ng singular noun na pare-pareho ang bilis ng pag-unlad ng lahat ng qualities sa bawat tao. Sa verse 25, may utos na keep in step with the Spirit.",
     question: "Sa siyam na ito, alin ang pinaka-gusto mong lumago sa'yo ngayong taon?",
     challenge: "Mag-pray ngayon: 'Holy Spirit, palaguin Mo sa akin ang ___.'",
   },
@@ -411,8 +410,8 @@ export const verses: Verse[] = [
     explain:
       "Sa Ephesians 2:1–3, inilalarawan ang dating kalagayan bilang patay sa pagsuway at kasalanan. Sa verses 4–7, ang pagbabago ay nagsisimula sa awa at malaking pag-ibig ng Diyos: Siya ang nagbibigay-buhay kasama ni Christ. Kaya ang salvation sa verses 8–9 ay regalo, hindi resulta ng sapat na religious score o good deeds na makapagpapautang ng obligasyon kay God.\n\nAng ‘through faith’ ay pagtitiwala sa Kanyang pagliligtas. Hindi nito ginagawang optional ang pagsunod o sinasabing walang halaga ang mabubuting gawa. Sa verse 10, tayo ay Kanyang handiwork, nilikha kay Christ para sa good works. Ang mga iyon ay bunga at layunin ng bagong buhay, hindi presyo ng salvation. Sa pagtuturo ng JCTGBTG, ang pagsisisi at bautismo sa pangalan ni Jesus (Acts 2:38) ay tugon ng pananampalataya, hindi pagbili ng biyaya.",
     today:
-      "Sa kulturang 'pag may tiyaga, may nilaga' — maganda 'yan sa trabaho! Pero sa love ni God, hindi ka kailangang mag-overtime. Libre. No strings attached.",
-    fact: "Sa sunod na verse (2:10), sinabi ni Paul na tayo ay 'God's handiwork' — sa Greek 'poiēma,' kung saan galing ang English word na 'poem.' Ikaw ay tula ni God!",
+      "Sa kulturang 'pag may tiyaga, may nilaga' — maganda 'yan sa trabaho! Pero ang salvation ay biyaya ni God, hindi sweldo sa mabubuting gawa. Tumugon nang may pananampalataya at pagsunod, hindi para magmalaki sa sariling achievement.",
+    fact: "Sa Ephesians 2:10, ang Greek word na poiēma ay tumutukoy sa workmanship o bagay na ginawa. ‘God’s handiwork’ ang salin dito; ang ‘tula ni God’ ay poetic illustration lamang, hindi literal na kahulugan ng verse.",
     question: "Saan mo sinusubukang 'patunayan' ang sarili mo para matanggap?",
     challenge: "Kapag naramdaman mong 'hindi ako enough' ngayong araw, sabihin: 'Regalo ang grace ni God sa akin.'",
   },
@@ -460,7 +459,7 @@ export const verses: Verse[] = [
       "Sa 2 Timothy 1:5–6, inaalala ang sincere faith ni Timothy at hinihikayat siyang pag-alabin ang gift ng Diyos. Sa verse 8, ang practical application ng verse 7 ay malinaw: huwag ikahiya ang testimony tungkol sa Lord o si Paul na nakakulong, at makibahagi sa suffering para sa Gospel sa kapangyarihan ng Diyos.\n\nKaya ang power ay para sa tapat na paglilingkod, ang love ay gumagabay sa pakikitungo sa kapwa, at ang self-discipline ay pagpipigil at maayos na paghatol. Hindi sinasabi ng passage na alam natin ang personality o diagnosis ni Timothy, o na ang bawat takot ay kasalanan. Ang encouragement ay huwag hayaang ang takot ang mamuno sa pagsunod. Ang tunay na courage ay puwedeng may kasamang kaba, pero nagpapatuloy nang may wisdom, love at pagtitiwala kay God.",
     today:
       "Takot mag-apply, mag-speak up sa meeting, magsabi ng 'hindi,' o magsimula ng bagong bagay? Kapag sinasabi ng takot na 'hindi mo kaya,' tandaan: may lakas, pag-ibig at disiplina na galing kay God.",
-    fact: "Ang 2 Timothy ay malamang ang huling sulat ni Paul bago siya pinatay sa Rome. Kaya ito ay parang 'last words' niya sa spiritual son niya — puno ng encouragement.",
+    fact: "Sa 2 Timothy 1:5, pinangalanan sina Lois at Eunice bilang lola at ina ni Timothy na may sincere faith. Sa verses 6–8, inuugnay ang gift ng Diyos at courage sa pagiging tapat sa testimony tungkol sa Lord.",
     question: "Ano ang isang bagay na gusto mong gawin pero pinipigilan ka ng takot?",
     challenge: "Gumawa ng isang maliit na 'brave step' ngayong araw — isang message, isang tanong, isang simula.",
   },
@@ -492,7 +491,7 @@ export const verses: Verse[] = [
       "Sa Revelation 21:1–3, nakita ni John ang bagong langit at bagong lupa, at ang banal na lungsod na bumababa mula sa Diyos. Ang sentrong announcement ay mananahan ang Diyos kasama ng Kanyang bayan. Doon sumusunod ang verse 4: ang pagkawala ng death, mourning, crying at pain ay kaugnay ng pagtatapos ng lumang kaayusan.\n\nMay kaugnay na larawan sa Isaiah 25:8, kung saan aalisin ng Lord ang kamatayan at pupunasan ang mga luha. Kaya ang hope dito ay nakaugat sa restoration na gagawin ni God, hindi sa denial ng kasalukuyang grief. Hindi ibinibigay ng verse ang petsa ng katuparan o sinasabing hindi na malulungkot ang faithful ngayon. Puwedeng tunay na magluksa habang umaasa: ang kasalukuyang sakit ay hindi ang huling larawan ng buhay kasama ng Diyos.",
     today:
       "Kung nagluluksa ka, kung may sakit kang dinadala, kung pagod ka na sa mundo — hindi ito ang katapusan. Ang dulo ng kwento ay hindi luha, kundi pag-asa. At kasama mo si God hanggang doon.",
-    fact: "Ang Revelation ay isinulat ni John habang naka-exile sa isla ng Patmos (Revelation 1:9). At astig ang 'bookends' ng Bible: nagsimula sa isang garden (Genesis), nagtapos sa isang lungsod na may 'tree of life' (Revelation 22).",
+    fact: "Sa Revelation 1:9, sinabi ni John na nasa Patmos siya dahil sa word of God at testimony tungkol kay Jesus. Sa Revelation 22:1–2, makikita ang river of life at tree of life sa vision ng lungsod—mga larawang may kaugnayan din sa Genesis 2.",
     question: "Ano ang pinaka-hinihintay mong mawala sa 'bagong mundo' na ipinangako ni God?",
     challenge: "Balikan ang 30 araw na ito. Anong verse ang pinaka-tumatak sa'yo? I-share sa isang kaibigan!",
   },
